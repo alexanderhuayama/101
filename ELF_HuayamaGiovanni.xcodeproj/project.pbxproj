@@ -10,6 +10,7 @@
 		A7B5C4E28508B8A09854DA39 /* Pods_ELF_HuayamaGiovanniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEEAC370573FAE313AEAA2D /* Pods_ELF_HuayamaGiovanniTests.framework */; };
 		A867614C566CACA361657F05 /* Pods_ELF_HuayamaGiovanniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA465A2A88DCC38DF562CFD /* Pods_ELF_HuayamaGiovanniUITests.framework */; };
 		AC0309581FD1C64C000CEC82 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0309571FD1C64C000CEC82 /* NetworkManager.swift */; };
+		AC03095A1FD1C8C5000CEC82 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0309591FD1C8C5000CEC82 /* DataBaseManager.swift */; };
 		AC0ADC271FD1B1BD0057CA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC261FD1B1BD0057CA48 /* AppDelegate.swift */; };
 		AC0ADC291FD1B1BD0057CA48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC281FD1B1BD0057CA48 /* ViewController.swift */; };
 		AC0ADC2C1FD1B1BD0057CA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0ADC2A1FD1B1BD0057CA48 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		8E514A2AD819352299357D67 /* Pods-ELF_HuayamaGiovanniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanniTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanniTests/Pods-ELF_HuayamaGiovanniTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB0105A020CE95E0508717CB /* Pods-ELF_HuayamaGiovanni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanni.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanni/Pods-ELF_HuayamaGiovanni.release.xcconfig"; sourceTree = "<group>"; };
 		AC0309571FD1C64C000CEC82 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		AC0309591FD1C8C5000CEC82 /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		AC0ADC231FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELF_HuayamaGiovanni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC0ADC261FD1B1BD0057CA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC0ADC281FD1B1BD0057CA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 				AC0ADC351FD1B1BD0057CA48 /* Info.plist */,
 				AC0ADC2D1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld */,
 				AC0309571FD1C64C000CEC82 /* NetworkManager.swift */,
+				AC0309591FD1C8C5000CEC82 /* DataBaseManager.swift */,
 			);
 			path = ELF_HuayamaGiovanni;
 			sourceTree = "<group>";
@@ -476,6 +479,7 @@
 				AC0ADC291FD1B1BD0057CA48 /* ViewController.swift in Sources */,
 				AC0ADC271FD1B1BD0057CA48 /* AppDelegate.swift in Sources */,
 				AC0ADC2F1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld in Sources */,
+				AC03095A1FD1C8C5000CEC82 /* DataBaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
