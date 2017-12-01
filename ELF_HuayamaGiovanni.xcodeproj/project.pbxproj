@@ -17,7 +17,7 @@
 		AC0ADC341FD1B1BD0057CA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0ADC321FD1B1BD0057CA48 /* LaunchScreen.storyboard */; };
 		AC0ADC3F1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC3E1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift */; };
 		AC0ADC4A1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC491FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift */; };
-		CDFF0F89D2B3B5545BE0EE80 /* Pods_ELF_HuayamaGiovanni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F894381B1138194B18F1DE /* Pods_ELF_HuayamaGiovanni.framework */; };
+		CDFF0F89D2B3B5545BE0EE80 /* Pods_ELF_HuayamaGiovanni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F894381B1138194B18F1DE /* Pods_ELF_HuayamaGiovanni.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -627,10 +627,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ELF_HuayamaGiovanni/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanni";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -640,10 +642,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ELF_HuayamaGiovanni/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanni";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -724,6 +728,7 @@
 				AC0ADC501FD1B1BE0057CA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC0ADC511FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanniTests" */ = {
 			isa = XCConfigurationList;
@@ -732,6 +737,7 @@
 				AC0ADC531FD1B1BE0057CA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC0ADC541FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanniUITests" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +746,7 @@
 				AC0ADC561FD1B1BE0057CA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
