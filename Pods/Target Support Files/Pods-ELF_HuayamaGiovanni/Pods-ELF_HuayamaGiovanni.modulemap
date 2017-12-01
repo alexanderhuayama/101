@@ -1,0 +1,6 @@
+framework module Pods_ELF_HuayamaGiovanni {
+  umbrella header "Pods-ELF_HuayamaGiovanni-umbrella.h"
+
+  export *
+  module * { export * }
+}

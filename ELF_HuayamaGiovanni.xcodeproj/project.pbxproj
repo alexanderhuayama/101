@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7B5C4E28508B8A09854DA39 /* Pods_ELF_HuayamaGiovanniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEEAC370573FAE313AEAA2D /* Pods_ELF_HuayamaGiovanniTests.framework */; };
+		A867614C566CACA361657F05 /* Pods_ELF_HuayamaGiovanniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA465A2A88DCC38DF562CFD /* Pods_ELF_HuayamaGiovanniUITests.framework */; };
+		AC0ADC271FD1B1BD0057CA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC261FD1B1BD0057CA48 /* AppDelegate.swift */; };
+		AC0ADC291FD1B1BD0057CA48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC281FD1B1BD0057CA48 /* ViewController.swift */; };
+		AC0ADC2C1FD1B1BD0057CA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0ADC2A1FD1B1BD0057CA48 /* Main.storyboard */; };
+		AC0ADC2F1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC2D1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld */; };
+		AC0ADC311FD1B1BD0057CA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0ADC301FD1B1BD0057CA48 /* Assets.xcassets */; };
+		AC0ADC341FD1B1BD0057CA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0ADC321FD1B1BD0057CA48 /* LaunchScreen.storyboard */; };
+		AC0ADC3F1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC3E1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift */; };
+		AC0ADC4A1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0ADC491FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift */; };
+		CDFF0F89D2B3B5545BE0EE80 /* Pods_ELF_HuayamaGiovanni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23F894381B1138194B18F1DE /* Pods_ELF_HuayamaGiovanni.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0ADC3B1FD1B1BE0057CA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0ADC1B1FD1B1BD0057CA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0ADC221FD1B1BD0057CA48;
+			remoteInfo = ELF_HuayamaGiovanni;
+		};
+		AC0ADC461FD1B1BE0057CA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0ADC1B1FD1B1BD0057CA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0ADC221FD1B1BD0057CA48;
+			remoteInfo = ELF_HuayamaGiovanni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23F894381B1138194B18F1DE /* Pods_ELF_HuayamaGiovanni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELF_HuayamaGiovanni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		298FE3C3E8FF51147D43EFA5 /* Pods-ELF_HuayamaGiovanniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanniUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanniUITests/Pods-ELF_HuayamaGiovanniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AEEAC370573FAE313AEAA2D /* Pods_ELF_HuayamaGiovanniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELF_HuayamaGiovanniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA465A2A88DCC38DF562CFD /* Pods_ELF_HuayamaGiovanniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ELF_HuayamaGiovanniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CD139A664FF1DA4093E2092 /* Pods-ELF_HuayamaGiovanniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanniTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanniTests/Pods-ELF_HuayamaGiovanniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E514A2AD819352299357D67 /* Pods-ELF_HuayamaGiovanniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanniTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanniTests/Pods-ELF_HuayamaGiovanniTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB0105A020CE95E0508717CB /* Pods-ELF_HuayamaGiovanni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanni.release.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanni/Pods-ELF_HuayamaGiovanni.release.xcconfig"; sourceTree = "<group>"; };
+		AC0ADC231FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELF_HuayamaGiovanni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0ADC261FD1B1BD0057CA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0ADC281FD1B1BD0057CA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC0ADC2B1FD1B1BD0057CA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC0ADC2E1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ELF_HuayamaGiovanni.xcdatamodel; sourceTree = "<group>"; };
+		AC0ADC301FD1B1BD0057CA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0ADC331FD1B1BD0057CA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0ADC351FD1B1BD0057CA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0ADC3A1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELF_HuayamaGiovanniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0ADC3E1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELF_HuayamaGiovanniTests.swift; sourceTree = "<group>"; };
+		AC0ADC401FD1B1BE0057CA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0ADC451FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ELF_HuayamaGiovanniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0ADC491FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELF_HuayamaGiovanniUITests.swift; sourceTree = "<group>"; };
+		AC0ADC4B1FD1B1BE0057CA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A712395E477E991FB515B0 /* Pods-ELF_HuayamaGiovanni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanni.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanni/Pods-ELF_HuayamaGiovanni.debug.xcconfig"; sourceTree = "<group>"; };
+		E40951135430CF908BCD46AB /* Pods-ELF_HuayamaGiovanniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ELF_HuayamaGiovanniUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ELF_HuayamaGiovanniUITests/Pods-ELF_HuayamaGiovanniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0ADC201FD1B1BD0057CA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFF0F89D2B3B5545BE0EE80 /* Pods_ELF_HuayamaGiovanni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ADC371FD1B1BE0057CA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7B5C4E28508B8A09854DA39 /* Pods_ELF_HuayamaGiovanniTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ADC421FD1B1BE0057CA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A867614C566CACA361657F05 /* Pods_ELF_HuayamaGiovanniUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60626A873A767BA4D7E6B6E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3A712395E477E991FB515B0 /* Pods-ELF_HuayamaGiovanni.debug.xcconfig */,
+				AB0105A020CE95E0508717CB /* Pods-ELF_HuayamaGiovanni.release.xcconfig */,
+				7CD139A664FF1DA4093E2092 /* Pods-ELF_HuayamaGiovanniTests.debug.xcconfig */,
+				8E514A2AD819352299357D67 /* Pods-ELF_HuayamaGiovanniTests.release.xcconfig */,
+				E40951135430CF908BCD46AB /* Pods-ELF_HuayamaGiovanniUITests.debug.xcconfig */,
+				298FE3C3E8FF51147D43EFA5 /* Pods-ELF_HuayamaGiovanniUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AC0ADC1A1FD1B1BD0057CA48 = {
+			isa = PBXGroup;
+			children = (
+				AC0ADC251FD1B1BD0057CA48 /* ELF_HuayamaGiovanni */,
+				AC0ADC3D1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests */,
+				AC0ADC481FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests */,
+				AC0ADC241FD1B1BD0057CA48 /* Products */,
+				60626A873A767BA4D7E6B6E8 /* Pods */,
+				D8904388EE3C2BBDC25F6B78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0ADC241FD1B1BD0057CA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ADC231FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.app */,
+				AC0ADC3A1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.xctest */,
+				AC0ADC451FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0ADC251FD1B1BD0057CA48 /* ELF_HuayamaGiovanni */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ADC261FD1B1BD0057CA48 /* AppDelegate.swift */,
+				AC0ADC281FD1B1BD0057CA48 /* ViewController.swift */,
+				AC0ADC2A1FD1B1BD0057CA48 /* Main.storyboard */,
+				AC0ADC301FD1B1BD0057CA48 /* Assets.xcassets */,
+				AC0ADC321FD1B1BD0057CA48 /* LaunchScreen.storyboard */,
+				AC0ADC351FD1B1BD0057CA48 /* Info.plist */,
+				AC0ADC2D1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld */,
+			);
+			path = ELF_HuayamaGiovanni;
+			sourceTree = "<group>";
+		};
+		AC0ADC3D1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ADC3E1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift */,
+				AC0ADC401FD1B1BE0057CA48 /* Info.plist */,
+			);
+			path = ELF_HuayamaGiovanniTests;
+			sourceTree = "<group>";
+		};
+		AC0ADC481FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ADC491FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift */,
+				AC0ADC4B1FD1B1BE0057CA48 /* Info.plist */,
+			);
+			path = ELF_HuayamaGiovanniUITests;
+			sourceTree = "<group>";
+		};
+		D8904388EE3C2BBDC25F6B78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23F894381B1138194B18F1DE /* Pods_ELF_HuayamaGiovanni.framework */,
+				5AEEAC370573FAE313AEAA2D /* Pods_ELF_HuayamaGiovanniTests.framework */,
+				6CA465A2A88DCC38DF562CFD /* Pods_ELF_HuayamaGiovanniUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0ADC221FD1B1BD0057CA48 /* ELF_HuayamaGiovanni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0ADC4E1FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanni" */;
+			buildPhases = (
+				87123E465FCE4F1F969AF3A5 /* [CP] Check Pods Manifest.lock */,
+				AC0ADC1F1FD1B1BD0057CA48 /* Sources */,
+				AC0ADC201FD1B1BD0057CA48 /* Frameworks */,
+				AC0ADC211FD1B1BD0057CA48 /* Resources */,
+				E9329C0E35C2E0D085BCC673 /* [CP] Embed Pods Frameworks */,
+				1EFEF7CA8E0C372F976E4587 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ELF_HuayamaGiovanni;
+			productName = ELF_HuayamaGiovanni;
+			productReference = AC0ADC231FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0ADC391FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0ADC511FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanniTests" */;
+			buildPhases = (
+				4D31A434116DD5768F0916B8 /* [CP] Check Pods Manifest.lock */,
+				AC0ADC361FD1B1BE0057CA48 /* Sources */,
+				AC0ADC371FD1B1BE0057CA48 /* Frameworks */,
+				AC0ADC381FD1B1BE0057CA48 /* Resources */,
+				E93754ED0A7C9861C46D9ABA /* [CP] Embed Pods Frameworks */,
+				8691F4FDC8B6771A7510B607 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0ADC3C1FD1B1BE0057CA48 /* PBXTargetDependency */,
+			);
+			name = ELF_HuayamaGiovanniTests;
+			productName = ELF_HuayamaGiovanniTests;
+			productReference = AC0ADC3A1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC0ADC441FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0ADC541FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanniUITests" */;
+			buildPhases = (
+				3A145E16ADF338AC4C02F7F3 /* [CP] Check Pods Manifest.lock */,
+				AC0ADC411FD1B1BE0057CA48 /* Sources */,
+				AC0ADC421FD1B1BE0057CA48 /* Frameworks */,
+				AC0ADC431FD1B1BE0057CA48 /* Resources */,
+				A3AF8A7D1CB9066CFC0A1F65 /* [CP] Embed Pods Frameworks */,
+				38B552C9EF3AFAD6C76F3C77 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0ADC471FD1B1BE0057CA48 /* PBXTargetDependency */,
+			);
+			name = ELF_HuayamaGiovanniUITests;
+			productName = ELF_HuayamaGiovanniUITests;
+			productReference = AC0ADC451FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0ADC1B1FD1B1BD0057CA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Giovanni;
+				TargetAttributes = {
+					AC0ADC221FD1B1BD0057CA48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					AC0ADC391FD1B1BE0057CA48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0ADC221FD1B1BD0057CA48;
+					};
+					AC0ADC441FD1B1BE0057CA48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC0ADC221FD1B1BD0057CA48;
+					};
+				};
+			};
+			buildConfigurationList = AC0ADC1E1FD1B1BD0057CA48 /* Build configuration list for PBXProject "ELF_HuayamaGiovanni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0ADC1A1FD1B1BD0057CA48;
+			productRefGroup = AC0ADC241FD1B1BD0057CA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0ADC221FD1B1BD0057CA48 /* ELF_HuayamaGiovanni */,
+				AC0ADC391FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests */,
+				AC0ADC441FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0ADC211FD1B1BD0057CA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0ADC341FD1B1BD0057CA48 /* LaunchScreen.storyboard in Resources */,
+				AC0ADC311FD1B1BD0057CA48 /* Assets.xcassets in Resources */,
+				AC0ADC2C1FD1B1BD0057CA48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ADC381FD1B1BE0057CA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ADC431FD1B1BE0057CA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EFEF7CA8E0C372F976E4587 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanni/Pods-ELF_HuayamaGiovanni-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38B552C9EF3AFAD6C76F3C77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanniUITests/Pods-ELF_HuayamaGiovanniUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A145E16ADF338AC4C02F7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELF_HuayamaGiovanniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D31A434116DD5768F0916B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELF_HuayamaGiovanniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8691F4FDC8B6771A7510B607 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanniTests/Pods-ELF_HuayamaGiovanniTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87123E465FCE4F1F969AF3A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ELF_HuayamaGiovanni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3AF8A7D1CB9066CFC0A1F65 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanniUITests/Pods-ELF_HuayamaGiovanniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9329C0E35C2E0D085BCC673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanni/Pods-ELF_HuayamaGiovanni-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MagicalRecord/MagicalRecord.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/ReachabilitySwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MagicalRecord.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReachabilitySwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanni/Pods-ELF_HuayamaGiovanni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E93754ED0A7C9861C46D9ABA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ELF_HuayamaGiovanniTests/Pods-ELF_HuayamaGiovanniTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0ADC1F1FD1B1BD0057CA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0ADC291FD1B1BD0057CA48 /* ViewController.swift in Sources */,
+				AC0ADC271FD1B1BD0057CA48 /* AppDelegate.swift in Sources */,
+				AC0ADC2F1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ADC361FD1B1BE0057CA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0ADC3F1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0ADC411FD1B1BE0057CA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0ADC4A1FD1B1BE0057CA48 /* ELF_HuayamaGiovanniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0ADC3C1FD1B1BE0057CA48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0ADC221FD1B1BD0057CA48 /* ELF_HuayamaGiovanni */;
+			targetProxy = AC0ADC3B1FD1B1BE0057CA48 /* PBXContainerItemProxy */;
+		};
+		AC0ADC471FD1B1BE0057CA48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0ADC221FD1B1BD0057CA48 /* ELF_HuayamaGiovanni */;
+			targetProxy = AC0ADC461FD1B1BE0057CA48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0ADC2A1FD1B1BD0057CA48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0ADC2B1FD1B1BD0057CA48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC0ADC321FD1B1BD0057CA48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0ADC331FD1B1BD0057CA48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0ADC4C1FD1B1BE0057CA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0ADC4D1FD1B1BE0057CA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0ADC4F1FD1B1BE0057CA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3A712395E477E991FB515B0 /* Pods-ELF_HuayamaGiovanni.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ELF_HuayamaGiovanni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC0ADC501FD1B1BE0057CA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0105A020CE95E0508717CB /* Pods-ELF_HuayamaGiovanni.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ELF_HuayamaGiovanni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanni";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC0ADC521FD1B1BE0057CA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CD139A664FF1DA4093E2092 /* Pods-ELF_HuayamaGiovanniTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELF_HuayamaGiovanniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELF_HuayamaGiovanni.app/ELF_HuayamaGiovanni";
+			};
+			name = Debug;
+		};
+		AC0ADC531FD1B1BE0057CA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E514A2AD819352299357D67 /* Pods-ELF_HuayamaGiovanniTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ELF_HuayamaGiovanniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanniTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ELF_HuayamaGiovanni.app/ELF_HuayamaGiovanni";
+			};
+			name = Release;
+		};
+		AC0ADC551FD1B1BE0057CA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40951135430CF908BCD46AB /* Pods-ELF_HuayamaGiovanniUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ELF_HuayamaGiovanniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ELF_HuayamaGiovanni;
+			};
+			name = Debug;
+		};
+		AC0ADC561FD1B1BE0057CA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298FE3C3E8FF51147D43EFA5 /* Pods-ELF_HuayamaGiovanniUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ELF_HuayamaGiovanniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.giovanni.ELF-HuayamaGiovanniUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ELF_HuayamaGiovanni;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0ADC1E1FD1B1BD0057CA48 /* Build configuration list for PBXProject "ELF_HuayamaGiovanni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0ADC4C1FD1B1BE0057CA48 /* Debug */,
+				AC0ADC4D1FD1B1BE0057CA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0ADC4E1FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0ADC4F1FD1B1BE0057CA48 /* Debug */,
+				AC0ADC501FD1B1BE0057CA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC0ADC511FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0ADC521FD1B1BE0057CA48 /* Debug */,
+				AC0ADC531FD1B1BE0057CA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC0ADC541FD1B1BE0057CA48 /* Build configuration list for PBXNativeTarget "ELF_HuayamaGiovanniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0ADC551FD1B1BE0057CA48 /* Debug */,
+				AC0ADC561FD1B1BE0057CA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC0ADC2D1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC0ADC2E1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodel */,
+			);
+			currentVersion = AC0ADC2E1FD1B1BD0057CA48 /* ELF_HuayamaGiovanni.xcdatamodel */;
+			path = ELF_HuayamaGiovanni.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC0ADC1B1FD1B1BD0057CA48 /* Project object */;
+}
